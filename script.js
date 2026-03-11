@@ -9,29 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to switch views
     function switchView(showPhotos) {
-        if (showPhotos) {
-            // Show photos, hide products
-            photosSection.classList.remove('hidden-view');
-            photosSection.classList.add('active-view');
+        photosSection.classList.toggle('active-view', showPhotos);
+        photosSection.classList.toggle('hidden-view', !showPhotos);
 
-            productsSection.classList.remove('active-view');
-            productsSection.classList.add('hidden-view');
+        productsSection.classList.toggle('active-view', !showPhotos);
+        productsSection.classList.toggle('hidden-view', showPhotos);
 
-            // Update active states on nav
-            linkPhotos.classList.add('active');
-            linkProducts.classList.remove('active');
-        } else {
-            // Show products, hide photos
-            productsSection.classList.remove('hidden-view');
-            productsSection.classList.add('active-view');
-
-            photosSection.classList.remove('active-view');
-            photosSection.classList.add('hidden-view');
-
-            // Update active states on nav
-            linkProducts.classList.add('active');
-            linkPhotos.classList.remove('active');
-        }
+        // Update active states on nav
+        linkPhotos.classList.toggle('active', showPhotos);
+        linkProducts.classList.toggle('active', !showPhotos);
     }
 
     // Add event listeners to navigation links
