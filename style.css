@@ -239,65 +239,9 @@ main {
 .product-image-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    /* This makes the image look like a pattern/design on the product */
+    object-fit: contain;
+    background-color: #fff;
 }
-
-/* Overlaying product mockups */
-.product-mockup {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    /* CSS masks/gradients to simulate products with the image */
-    box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.7);
-}
-
-/* Specialized mockups using basic CSS shapes over the image */
-.blanket-mockup {
-    border-radius: 20px;
-    border: 10px solid #fff;
-    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
-}
-
-.mug-mockup {
-    border-radius: 10% 10% 40% 40%;
-    border-right: 15px solid rgba(255,255,255,0.8);
-    transform: scale(0.8);
-}
-
-.underwear-mockup {
-    border-radius: 50% 50% 10% 10%;
-    border-top: 20px solid #ff69b4;
-    transform: scale(0.9);
-}
-
-.hoodie-mockup {
-    border-radius: 30% 30% 0 0;
-    background: linear-gradient(rgba(255,255,255,0.3) 0%, transparent 100%);
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-}
-
-.nails-mockup {
-    border-radius: 50% 50% 0 0;
-    transform: scale(0.6);
-    box-shadow: inset 0 20px 10px rgba(255,255,255,0.5);
-}
-
-.tattoo-mockup {
-    border-radius: 50%;
-    transform: scale(0.7);
-    mix-blend-mode: multiply;
-}
-
-.diaper-mockup {
-    border-radius: 10% 10% 50% 50%;
-    border: 15px solid #fff;
-    transform: scale(0.85);
-}
-
 
 .product-card h3 {
     font-size: 1.3rem;
