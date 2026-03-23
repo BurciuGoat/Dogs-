@@ -29,19 +29,26 @@
     </header>
 
     <main id="main-content">
-        <!-- PHOTOS SECTION -->
+        <!-- HERO BACKSTORY SECTION -->
         <section id="photos-section" class="view-section active-view">
-            <div class="intro">
-                <h1>Meet Our Pups!</h1>
-                <p>
-                    Meet <strong>Daisy</strong> (left), our lovely brown Yorkie Poodle Shih Tzu mix,
-                    and <strong>Biscuit</strong> (right), our adorable white Yorkie Poodle.
-                </p>
+            <div class="hero-intro">
+                <h1 class="hero-title">The Saviors of Modesto</h1>
+                <div class="hero-content">
+                    <p class="hero-text">
+                        Before they were the faces of this premium boutique, <strong>Daisy</strong> (the brilliant brown Yorkie Poodle Shih Tzu mix) and <strong>Biscuit</strong> (the fearless white Yorkie Poodle) were busy saving the world. When global nuclear threats descended upon the city of Modesto, it wasn't the military that stepped up—it was these two.
+                    </p>
+                    <p class="hero-text">
+                        Disarming warheads with precise paw-swipes and deflecting lasers with sheer fluff, they single-handedly thwarted armageddon. Today, these revered worldwide heroes wear impeccably tailored suits, negotiate treaties with international diplomats, and advise the President on matters of global security.
+                    </p>
+                    <p class="hero-text">
+                        Having secured world peace, Daisy and Biscuit have dedicated their post-heroic lives to a new, equally noble cause: providing essential, high-quality goods for common civilians. Welcome to their exclusive collection.
+                    </p>
+                </div>
             </div>
             <div class="gallery">
-                <div class="gallery-card main-photo">
-                    <img src="assets/dogs.jpg" alt="Daisy and Biscuit">
-                    <div class="caption">Best Friends Forever!</div>
+                <div class="gallery-card hero-photo">
+                    <img src="assets/dogs.jpg" alt="Daisy and Biscuit in their heroic glory">
+                    <div class="caption">Retired Heroes, Active Fashion Icons</div>
                 </div>
             </div>
         </section>
@@ -49,81 +56,137 @@
         <!-- PRODUCTS SECTION -->
         <section id="products-section" class="view-section hidden-view">
             <div class="intro">
-                <h1>Shop the Collection</h1>
-                <p>Support our pawsome friends by purchasing these amazing custom products featuring Daisy and Biscuit!</p>
+                <h1>Shop the Hero Collection</h1>
+                <p>Equip yourself with the same gear used by world leaders, diplomats, and international heroes. Featuring exclusive designs by Daisy and Biscuit.</p>
             </div>
 
             <div class="products-grid">
                 <!-- Product 1 -->
-                <div class="product-card">
+                <div class="product-card" data-name="Tactical Dog Blanket" data-price="35.00">
                     <div class="product-image-container">
-                        <img src="assets/mockups/blanket.jpg" alt="Dog Blanket">
+                        <div class="css-placeholder blanket-placeholder"></div>
                     </div>
-                    <h3>Dog Blanket</h3>
+                    <h3>Tactical Dog Blanket</h3>
                     <p class="price">$35.00</p>
                     <button class="buy-btn">Add to Cart</button>
                 </div>
 
                 <!-- Product 2 -->
-                <div class="product-card">
+                <div class="product-card" data-name="Diplomatic Dog Mug" data-price="15.00">
                     <div class="product-image-container">
-                        <img src="assets/mockups/mug.jpg" alt="Dog Mug">
+                        <div class="css-placeholder mug-placeholder"></div>
                     </div>
-                    <h3>Dog Mug</h3>
+                    <h3>Diplomatic Dog Mug</h3>
                     <p class="price">$15.00</p>
                     <button class="buy-btn">Add to Cart</button>
                 </div>
 
                 <!-- Product 3 -->
-                <div class="product-card">
+                <div class="product-card" data-name="Armored Dog Underwear" data-price="18.00">
                     <div class="product-image-container">
-                        <img src="assets/mockups/underwear.jpg" alt="Dog Underwear">
+                        <div class="css-placeholder underwear-placeholder"></div>
                     </div>
-                    <h3>Dog Underwear</h3>
+                    <h3>Armored Dog Underwear</h3>
                     <p class="price">$18.00</p>
                     <button class="buy-btn">Add to Cart</button>
                 </div>
 
                 <!-- Product 4 -->
-                <div class="product-card">
+                <div class="product-card" data-name="Bulletproof Dog Hoodie" data-price="45.00">
                     <div class="product-image-container">
-                        <img src="assets/mockups/hoodie.jpg" alt="Dog Hoodie">
+                        <div class="css-placeholder hoodie-placeholder"></div>
                     </div>
-                    <h3>Dog Hoodie</h3>
+                    <h3>Bulletproof Dog Hoodie</h3>
                     <p class="price">$45.00</p>
                     <button class="buy-btn">Add to Cart</button>
                 </div>
 
                 <!-- Product 5 -->
-                <div class="product-card">
+                <div class="product-card" data-name="Titanium Dog Nails" data-price="12.00">
                     <div class="product-image-container">
-                        <img src="assets/mockups/nails.jpg" alt="Dog Nails">
+                        <div class="css-placeholder nails-placeholder"></div>
                     </div>
-                    <h3>Dog Nails</h3>
+                    <h3>Titanium Dog Nails</h3>
                     <p class="price">$12.00</p>
                     <button class="buy-btn">Add to Cart</button>
                 </div>
 
                 <!-- Product 6 -->
-                <div class="product-card">
+                <div class="product-card" data-name="Heroic Dog Tattoos" data-price="8.00">
                     <div class="product-image-container">
-                        <img src="assets/mockups/tattoos.jpg" alt="Dog Tattoos">
+                        <div class="css-placeholder tattoos-placeholder"></div>
                     </div>
-                    <h3>Dog Tattoos (Temporary)</h3>
+                    <h3>Heroic Dog Tattoos (Temporary)</h3>
                     <p class="price">$8.00</p>
                     <button class="buy-btn">Add to Cart</button>
                 </div>
 
                 <!-- Product 7 -->
-                <div class="product-card">
+                <div class="product-card" data-name="Security Dog Diapers" data-price="22.00">
                     <div class="product-image-container">
-                        <img src="assets/mockups/diapers.jpg" alt="Dog Diapers">
+                        <div class="css-placeholder diapers-placeholder"></div>
                     </div>
-                    <h3>Dog Diapers</h3>
+                    <h3>Security Dog Diapers</h3>
                     <p class="price">$22.00</p>
                     <button class="buy-btn">Add to Cart</button>
                 </div>
 
+                <!-- NEW PRODUCT: Daisy Arm Sling -->
+                <div class="product-card" data-name="Daisy Arm Sling" data-price="120.00">
+                    <div class="product-image-container">
+                        <div class="css-placeholder sling-placeholder"></div>
+                    </div>
+                    <h3>Daisy Arm Sling (Post-Surgery Recovery)</h3>
+                    <p class="price">$120.00</p>
+                    <button class="buy-btn">Add to Cart</button>
+                </div>
+
+                <!-- NEW PRODUCT: Biscuit PS5 -->
+                <div class="product-card" data-name="Biscuit PS5" data-price="499.00">
+                    <div class="product-image-container">
+                        <div class="css-placeholder biscuit-ps5-placeholder"></div>
+                    </div>
+                    <h3>Biscuit Custom PS5</h3>
+                    <p class="price">$499.00</p>
+                    <button class="buy-btn">Add to Cart</button>
+                </div>
+
+                <!-- NEW PRODUCT: Daisy PS5 Pro -->
+                <div class="product-card" data-name="Daisy PS5 Pro" data-price="699.00">
+                    <div class="product-image-container">
+                        <div class="css-placeholder daisy-ps5-pro-placeholder"></div>
+                    </div>
+                    <h3>Daisy Custom PS5 Pro</h3>
+                    <p class="price">$699.00</p>
+                    <button class="buy-btn">Add to Cart</button>
+                </div>
+
+                <!-- NEW PRODUCT: Gourmet Dog-Shaped Salad -->
+                <div class="product-card" data-name="Gourmet Dog-Shaped Salad" data-price="85.00">
+                    <div class="product-image-container">
+                        <div class="css-placeholder salad-placeholder"></div>
+                    </div>
+                    <h3>Gourmet Dog-Shaped Salad</h3>
+                    <p class="price">$85.00</p>
+                    <button class="buy-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- UCSD STUDENT SECTION -->
+        <section id="ucsd-section" class="ucsd-discount">
+            <div class="ucsd-content">
+                <h2>UC San Diego Student Discount</h2>
+                <p>Listen, we know the struggle. Surviving the uphill trek to Geisel Library? Brutal. Getting crushed by a biology midterm? Devastating. Dodging the raccoons near Sixth College at 2 AM? Truly a near-death experience.</p>
+                <p>We understand that extreme retail therapy—like buying a pair of tactical dog diapers—is the only logical coping mechanism during finals week.</p>
+                <p>Unlock an exclusive 15% off your entire order by verifying your student status.</p>
+
+                <div class="ucsd-form">
+                    <input type="email" id="ucsd-email" placeholder="Enter your @ucsd.edu email" />
+                    <button id="ucsd-btn" class="ucsd-btn">Triton Discount</button>
+                </div>
+                <div id="ucsd-message" class="ucsd-message"></div>
             </div>
         </section>
     </main>
@@ -131,6 +194,58 @@
     <footer>
         <p>&copy; 2023 Daisy & Biscuit. All Rights Reserved.</p>
     </footer>
+
+    <!-- Cart Sidebar -->
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="close-cart-btn" class="close-cart-btn">&times;</button>
+        </div>
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be rendered here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">Total: $<span id="cart-total-amount">0.00</span></div>
+            <button id="checkout-btn" class="checkout-btn" disabled>Checkout</button>
+        </div>
+    </div>
+
+    <!-- Payment Modal (Mock Stripe Drop-in) -->
+    <div id="payment-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button id="close-modal-btn" class="close-modal-btn">&times;</button>
+            <div class="stripe-header">
+                <h3>Secure Checkout</h3>
+                <p>Powered by Stripe</p>
+            </div>
+            <form id="payment-form">
+                <div class="form-group">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" placeholder="0000 0000 0000 0000" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group half">
+                        <label for="expiry">MM/YY</label>
+                        <input type="text" id="expiry" placeholder="MM/YY" required>
+                    </div>
+                    <div class="form-group half">
+                        <label for="cvc">CVC</label>
+                        <input type="text" id="cvc" placeholder="CVC" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="zip">ZIP</label>
+                    <input type="text" id="zip" placeholder="ZIP" required>
+                </div>
+                <button type="submit" id="pay-btn" class="pay-btn">Pay Now</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Cart Toggle Button for Header/Floating -->
+    <button id="cart-toggle-btn" class="cart-toggle-btn">
+        🛒 Cart (<span id="cart-count">0</span>)
+    </button>
 
     <script src="script.js"></script>
 </body>
