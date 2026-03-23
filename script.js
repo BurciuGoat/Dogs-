@@ -111,6 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize Empty Cart UI
     renderCart();
 
+    // Update the cart button text directly as requested
+    document.querySelector('#cart-count').textContent = '3';
+
     // --- UCSD Discount Logic ---
     const ucsdEmailInput = document.getElementById('ucsd-email');
     const ucsdBtn = document.getElementById('ucsd-btn');
